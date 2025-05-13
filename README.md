@@ -51,7 +51,7 @@ This performs:
 | Targeted PGD          | 12.0      | 26.8      |
 | Patch PGD (ε=0.5)     | 26.0      | 64.6      |
 
-![Accuracy Comparison](figures/accuracy_per_task.png)
+![Accuracy Comparison](accuracy_per_task.png)
 
 ### Transferability to DenseNet-121
 
@@ -62,7 +62,7 @@ This performs:
 | Best-Adv | 58.2      | 86.8      |
 | Patch    | 66.4      | 88.0      |
 
-![Transferability Plot](figures/transferability_line_plot.png)
+![Transferability Plot](transferability_line_plot.png)
 
 ---
 
