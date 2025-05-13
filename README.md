@@ -12,11 +12,6 @@ This repository contains the implementation and evaluation for Deep Learning Pro
 - NumPy, Matplotlib
 - Jupyter Notebook
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
@@ -27,13 +22,13 @@ pip install -r requirements.txt
 Place the 500-image ImageNet subset in the directory:
 
 ```
-data/imagenet_subset/{class_name}/*.jpg
+/TestData
 ```
 
 ### 2. Run the Notebook
 
 ```bash
-jupyter notebook "notebooks/dl-p3 (4).ipynb"
+jupyter notebook "notebooks/dl-p3.ipynb"
 ```
 
 This performs:
@@ -42,12 +37,6 @@ This performs:
 - Patch-based PGD (32×32 region)
 - Transferability evaluation on DenseNet-121
 - Visualization of results
-
-### 3. Run the Script (Optional)
-
-```bash
-python scripts/dl_p3_(4).py --data-dir data/imagenet_subset --output-dir figures
-```
 
 ---
 
