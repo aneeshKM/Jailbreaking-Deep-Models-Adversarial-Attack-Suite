@@ -28,7 +28,7 @@ Place the 500-image ImageNet subset in the directory:
 ### 2. Run the Notebook
 
 ```bash
-jupyter notebook "notebooks/dl-p3.ipynb"
+jupyter notebook "project-3-jailbreaking-deep-learning-models.ipynb"
 ```
 
 This performs:
